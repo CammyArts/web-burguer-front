@@ -1,5 +1,11 @@
 @import '/src/css/global.css';
 
+/*Container*/
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 /*Header*/
 h1{
     color: rgb(29, 29, 29);
@@ -16,6 +22,9 @@ h1{
 }
 
 /*Section*/
+.section {
+    flex: 1;
+}
 .section img{
     max-width: 80%;
     margin: 4%;
