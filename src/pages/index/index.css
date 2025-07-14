@@ -1,0 +1,70 @@
+@import '/src/css/global.css';
+
+/*Header*/
+h1{
+    color: rgb(29, 29, 29);
+}
+.header img{
+    max-width: 10%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient( rgb(139, 124, 96),rgb(255, 242, 201))
+}
+
+/*Section*/
+.section img{
+    max-width: 80%;
+    margin: 4%;
+    box-shadow: rgb(187, 125, 9) 2px 2px 2px 2px
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(255, 242, 201);
+}
+
+
+/*Article*/
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer*/
+.footer a{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.footer img{
+    width: 100%;
+}
+.footer a{
+    width: 5%;
+}
+
+.footer a:hover{
+    transform: scale(1.1);
+}
+.footer{
+    display: flex;
+    background-color: rgb(22, 22, 22);
+    color: rgb(255, 253, 243);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 2%;
+}
+.links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
